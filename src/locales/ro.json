@@ -1,0 +1,16 @@
+{
+  "home": {
+    "welcome": "Bine ati venit in Bucovina!",
+    "description": "Suntem încântați să vă întâmpinăm în locul nostru deosebit, unde vă veți bucura de o experiență culinară autentică, într-o atmosferă primitoare și plăcută. Meniul nostru cuprinde preparate tradiționale din bucătăria românească și specific\n        bucovineană, pregătite cu ingrediente proaspete și de calitate, iar serviciile noastre sunt impecabile. Vă invităm să ne vizitați și să descoperiți gusturile autentice ale regiunii Bucovinei!",
+    "contact": {
+      "address": "Adresa",
+      "hours": "Program",
+      "mtos": "Luni - Duminică"
+    }
+  },
+  "navbar": {
+    "reservations": "Rezervări",
+    "menu": "Meniu",
+    "about": "Despre noi"
+  }
+}

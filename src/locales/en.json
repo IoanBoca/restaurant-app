@@ -1,0 +1,16 @@
+{
+  "home": {
+    "welcome": "Welcome to Bucovina!",
+    "description": "We are delighted to welcome you to our special place, where you will enjoy an authentic culinary experience in a welcoming and pleasant atmosphere. Our menu features traditional dishes from Romanian and Bucovina cuisine, prepared with fresh and quality ingredients, while our services are impeccable. We invite you to visit us and discover the authentic flavors of the Bucovina region!",
+    "contact": {
+      "address": "Address",
+      "hours": "Hours",
+      "mtos": "Monday - Sunday"
+    }
+  },
+  "navbar": {
+    "reservations": "Reservations",
+    "menu": "Menu",
+    "about": "About us"
+  }
+}
