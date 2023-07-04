@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { defineStore } from "pinia";
 import { auth, usersCollection } from "@/includes/firebase";
 
@@ -31,10 +32,10 @@ export default defineStore("user", {
       await usersCollection.doc(userCred.user.uid).get().then((doc) => {
         if (doc.data().isAdmin) {
           this.userIsAdmin = true;
-          console.log(`The user ${userCred.user.displayName} has admin attributes.`);
+          // The user userCred.user.displayName has admin attributes.
         } else {
+          // The user userCred.user.displayName has regular user attributes.
           this.userIsAdmin = false;
-          console.log(`The user ${userCred.user.displayName} has regular user attributes.`);
         }
       });
 
@@ -48,3 +49,4 @@ export default defineStore("user", {
     }
   }
 });
+

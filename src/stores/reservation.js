@@ -40,7 +40,7 @@ export default defineStore("reservation", {
         console.log(`Booking for ${this.personal_details_info.first_name}. Document written with ID: ${docRef.id}`);
 
         const accountSid = "AC3b4a16c3393d296988f409c3c83103b5";
-        const authToken = "8695126590a5dd392fc1106843a17198";
+        const authToken = "8ac439ab1bca6040e3ec9e12577994df";
 
         const url = `https://api.twilio.com/2010-04-01/Accounts/${accountSid}/Messages.json`;
         const data = new FormData();
@@ -64,7 +64,7 @@ export default defineStore("reservation", {
           .catch((error) => {
             console.error("Error sending message", error);
           });
-        
+
         return docRef.id;
       });
     },

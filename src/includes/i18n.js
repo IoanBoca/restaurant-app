@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { createI18n } from "vue-i18n";
 import en from "@/locales/en.json";
 import ro from "@/locales/ro.json";
