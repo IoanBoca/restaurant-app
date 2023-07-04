@@ -6,23 +6,23 @@
         <p class="greeting-description"> {{ $t("home.description") }} </p>
       </div>
     </section>
-
-    <v-card class="contact-card">
-      <v-card-item>
-        <v-card-title>Contact</v-card-title>
-      </v-card-item>
-      <v-card-text>
-        <h2>{{ $t("home.contact.address") }}</h2>
-        <p>Capu Campului, 713 A</p>
-        <br>
-        <h2>{{ $t("home.contact.hours") }}</h2>
-        <p>{{ $t("home.contact.mtos") }} : 8 - 22</p>
-        <br>
-        <h2>Contact</h2>
-        <p>0745271611</p>
-      </v-card-text>
-    </v-card>
-
+    <div class="card-container">
+      <v-card class="contact-card">
+        <v-card-item>
+          <v-card-title>Contact</v-card-title>
+        </v-card-item>
+        <v-card-text>
+          <h2>{{ $t("home.contact.address") }}</h2>
+          <p>Capu Campului, 713 A</p>
+          <br>
+          <h2>{{ $t("home.contact.hours") }}</h2>
+          <p>{{ $t("home.contact.mtos") }} : 8 - 22</p>
+          <br>
+          <h2>Contact</h2>
+          <p>0745271611</p>
+        </v-card-text>
+      </v-card>
+    </div>
     <GoogleMapLoader />
   </div>
 </template>
@@ -39,9 +39,11 @@ export default {
 </script>
 
 <style>
-.home-view-container {
+.card-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .greeting-section {
@@ -73,7 +75,8 @@ export default {
 
 .contact-card {
   position: relative;
-  width: 400px;
+  width: 800px;
   padding: 20px;
+  margin: 20px;
 }
 </style>

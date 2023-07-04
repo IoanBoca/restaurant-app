@@ -16,7 +16,6 @@
         <router-link class="about-option" :to="{name: 'about'}">
           {{ $t("navbar.about") }}
         </router-link>
-        <a class="gift-option" href="#">Gift Cards</a>
         <router-link v-if="!userStore.userLoggedIn" class="login-register-option" :to="{name: 'auth'}">
           Login / Register
         </router-link>

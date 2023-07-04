@@ -135,7 +135,7 @@ export default {
       }
 
       this.booking_alert_variant = "bg-green-500";
-      this.booking_alert_msg = `Success! Your booking has been created. It has the id: ${booking_id}`;
+      this.booking_alert_msg = `Success! Your booking has been created.`;
 
       setTimeout(() => {
         window.location.reload();
